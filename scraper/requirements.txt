@@ -1,0 +1,8 @@
+feedparser==6.0.12
+requests==2.34.2
+beautifulsoup4==4.15.0
+SQLAlchemy==2.0.51
+python-dotenv==1.0.1
+pytest==8.2.2
+newspaper3k==0.2.8
+lxml-html-clean==0.4.5
