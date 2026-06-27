@@ -7,7 +7,7 @@ News Pulse is a full-stack system that pulls live articles from news RSS feeds, 
 ## 🚀 Deliverables & Live Links
 - **Live Frontend URL:** `https://pulse.adityagaur.me`
 - **Live Backend API URL:** `https://pulse.adityagaur.me/api`
-- **Video Walkthrough (Required):** `[https://youtu.be/xOqJpD9j7wM]`
+- **Video Walkthrough (Required):** `https://drive.google.com/drive/folders/1RkQpdQ74J1FzhS929zDPDPP05yOYFGb4?usp=sharing`
 
 ---
 
