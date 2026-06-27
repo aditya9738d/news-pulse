@@ -1,20 +1,14 @@
 name: Scheduled News Ingestion
 
-# 1. The Trigger
 on:
   schedule:
-    # Runs at minute 0 past every 2nd hour (e.g., 2:00, 4:00, 6:00)
     - cron: '0 */2 * * *'
-  
-  # This allows you to manually click a "Run workflow" button on GitHub to test it
   workflow_dispatch: 
 
-# 2. The Jobs
 jobs:
   ping-api:
-    runs-on: ubuntu-latest # GitHub provides this Linux server for free
+    runs-on: ubuntu-latest 
 
-    # 3. The Steps
     steps:
       - name: Trigger Live EC2 API
         run: |
